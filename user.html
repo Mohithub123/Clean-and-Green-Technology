@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lodged Complain - Garbage Management System</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="user image.jpg" alt="Profile Picture">
+                <h2>Joh Doe</h2>
+                <p>johdoe@gmail.com</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="#" class="active">Lodged Complain</a></li>
+                    <li><a href="#">Complain History</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <header class="main-header">
+                <h1>Garbage Management System</h1>
+            </header>
+
+            <section class="complain-form">
+                <h2>Lodged Complain</h2>
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="area">Area</label>
+                        <input type="text" id="area" name="area" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="locality">Locality</label>
+                        <input type="text" id="locality" name="locality" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="landmark">Landmark</label>
+                        <input type="text" id="landmark" name="landmark" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="photo">Photo</label>
+                        <input type="file" id="photo" name="photo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="note">Note (if any)</label>
+                        <textarea id="note" name="note" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+</html>

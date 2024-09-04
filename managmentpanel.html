@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Garbage Management System</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="managmentpanel.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="admin image.png" alt="Profile Picture">
+                <h2>Hello Mr</h2>
+                <p>hello@gmail.com</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Lodged Complain</a></li>
+                    <li><a href="#">Complain History</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <header class="main-header">
+                <h1>Garbage Management System</h1>
+                <div class="user-info">
+                    <i class="fas fa-user"></i>
+                </div>
+            </header>
+
+            <section class="dashboard">
+                <h2>Welcome to user Member</h2>
+                <button class="btn-profile">View Profile</button>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total Lodged Complain</h3>
+                        <p>1</p>
+                        <a href="#">View Detail</a>
+                    </div>
+                    <div class="stat-card">
+                        <h3>New Lodged Complain</h3>
+                        <p>0</p>
+                        <a href="#">View Detail</a>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Completed Lodged Complain</h3>
+                        <p>1</p>
+                        <a href="#">View Detail</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="managmentpanel.js"></script>
+</body>
+</html>
